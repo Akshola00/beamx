@@ -386,6 +386,26 @@
   resolved "https://registry.yarnpkg.com/@radix-ui/react-context/-/react-context-1.1.1.tgz#82074aa83a472353bb22e86f11bcbd1c61c4c71a"
   integrity sha512-UASk9zi+crv9WteK/NU4PLvOoL3OuE6BWVKNF6hPRBtYBDXQ2u5iu3O59zUlJiTVvkyuycnqrztsHVJwcK9K+Q==
 
+"@radix-ui/react-dialog@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-dialog/-/react-dialog-1.1.2.tgz#d9345575211d6f2d13e209e84aec9a8584b54d6c"
+  integrity sha512-Yj4dZtqa2o+kG61fzB0H2qUvmwBA2oyQroGLyNtBj1beo1khoQ3q1a2AO8rrQYjd8256CO9+N8L9tvsS+bnIyA==
+  dependencies:
+    "@radix-ui/primitive" "1.1.0"
+    "@radix-ui/react-compose-refs" "1.1.0"
+    "@radix-ui/react-context" "1.1.1"
+    "@radix-ui/react-dismissable-layer" "1.1.1"
+    "@radix-ui/react-focus-guards" "1.1.1"
+    "@radix-ui/react-focus-scope" "1.1.0"
+    "@radix-ui/react-id" "1.1.0"
+    "@radix-ui/react-portal" "1.1.2"
+    "@radix-ui/react-presence" "1.1.1"
+    "@radix-ui/react-primitive" "2.0.0"
+    "@radix-ui/react-slot" "1.1.0"
+    "@radix-ui/react-use-controllable-state" "1.1.0"
+    aria-hidden "^1.1.1"
+    react-remove-scroll "2.6.0"
+
 "@radix-ui/react-direction@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-direction/-/react-direction-1.1.0.tgz#a7d39855f4d077adc2a1922f9c353c5977a09cdc"
@@ -784,11 +804,6 @@ ajv@^6.12.4:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
-
-animated-backgrounds@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/animated-backgrounds/-/animated-backgrounds-1.0.11.tgz#e3084d0ab1cb4d2ba1c40c5a09961743fa4c3002"
-  integrity sha512-M7sGVL3Yzrl6za788B6xM/a8w+cVZOAxPa8uEMWBUqRsb3ZpDwP3YqEu0aTIf7Dik54sMnlwGgZSj6pa/0yC9Q==
 
 ansi-regex@^5.0.1:
   version "5.0.1"
@@ -2481,11 +2496,6 @@ parent-module@^1.0.0:
   integrity sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==
   dependencies:
     callsites "^3.0.0"
-
-particleground.ts@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/particleground.ts/-/particleground.ts-1.0.3.tgz#aac58888a9286f35152662787dde8b687ef89d91"
-  integrity sha512-oVcwWqqApSN1SfuCB6B3zir86jqZS1boopMbDDf62xZx+quEGnGUnQge1gjVsLLKWmWjyXbkHwZhB0jb5N9yXQ==
 
 path-exists@^4.0.0:
   version "4.0.0"
